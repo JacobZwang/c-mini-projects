@@ -9,16 +9,16 @@ int main()
     int total = 0;
 
     printf("How many pennies do you have? ");
-    scanf("%d", &pennies);
+    scanf_s("%d", &pennies);
 
     printf("How many nickles do you have? ");
-    scanf("%d", &nickles);
+    scanf_s("%d", &nickles);
 
     printf("How many dimes do you have? ");
-    scanf("%d", &dimes);
+    scanf_s("%d", &dimes);
 
     printf("How many quarters do you have? ");
-    scanf("%d", &quarters);
+    scanf_s("%d", &quarters);
 
     total = pennies + (nickles * 5) + (dimes * 10) + (quarters * 25);
 
